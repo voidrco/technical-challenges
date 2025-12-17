@@ -6,7 +6,7 @@
 
 # Exploratory Testing Agent
 
-**Senior Software Engineer - Take-Home Challenge**
+Take-Home Challenge**
 
 Time: 4 days | Stack: TypeScript
 
