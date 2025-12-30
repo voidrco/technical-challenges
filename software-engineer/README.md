@@ -22,7 +22,7 @@ Build an AI agent that autonomously explores a web application, discovers potent
 
 Your agent will explore the following e-commerce application:
 
-🔗 **https://with-bugs.practicesoftwaretesting.com**
+**https://with-bugs.practicesoftwaretesting.com**
 
 This is a fully functional e-commerce site with intentional bugs. Your agent should discover issues across different areas: product browsing, cart operations, checkout flow, user authentication, and more.
 
@@ -147,18 +147,24 @@ We evaluate holistically, but pay particular attention to:
 - **Expected effort:** 8-16 hours of focused work
 - If you need more time due to other commitments, just let us know
 
-*Submit your solution by sending us the repository link. We'll review it and schedule a follow-up conversation to discuss your approach.*
+Submit your solution by sending us the repository link. We'll review it and schedule a follow-up conversation to discuss your approach.
 
 ---
 
-## Follow-up Discussion
+## Final Presentation
 
-After submission, we'll have a 45-60 minute conversation where we'll ask you to:
+After submitting your solution, you'll present your work in a 30-minute session with our CTO, Victor Buchalla.
 
-- Walk us through your solution and key decisions
-- Discuss what you would do differently with more time
-- Extend or modify the solution live (pair programming style)
-- Discuss how you'd adapt this for production use at scale
+**Schedule your presentation:** https://ro.am/buchalla/entrevista
+
+During the presentation, you'll cover:
+
+- Complete walkthrough of your solution and key decisions
+- Rationale behind technical choices and trade-offs
+- What you would do differently given more time
+- Deep understanding of how everything works, including any AI-generated code
+
+Even if you used AI assistance, you must understand exactly how the generated code functions and be able to explain its operation in detail. Be prepared to extend or modify the solution live (pair programming style) and discuss how you'd adapt this for production use at scale.
 
 ---
 
@@ -168,4 +174,4 @@ If anything is unclear or you have questions about the requirements, reach out t
 
 ---
 
-**Good luck! We're excited to see what you build.** 🚀
+Interested in joining the team? Check open positions at [voidr.co](https://voidr.co)

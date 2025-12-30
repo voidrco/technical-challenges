@@ -4,7 +4,7 @@
 
 <h3 align="center">Test Automation as a Service, AI-Powered</h3>
 
-# 🔧 DevOps / SRE Tests
+# DevOps / SRE Tests
 
 ## About the Role
 
@@ -25,7 +25,7 @@ Our DevOps/SRE tests focus on:
 
 ## Available Tests
 
-🚧 **Coming soon!** We're preparing amazing challenges to evaluate your DevOps/SRE skills.
+**Coming soon.** We're preparing challenges to evaluate your DevOps/SRE skills.
 
 ## What We Expect
 
@@ -40,6 +40,7 @@ Our DevOps/SRE tests focus on:
 ## Technologies
 
 At Voidr we primarily work with:
+
 - AWS / GCP
 - Kubernetes
 - Terraform
@@ -47,11 +48,12 @@ At Voidr we primarily work with:
 - Prometheus / Grafana
 - ELK Stack
 
-But we value professionals who know and adapt to different stacks.
+We value professionals who know and adapt to different stacks.
 
 ## Next Steps
 
 After the technical assessment, approved candidates go through:
+
 1. In-depth technical interview
 2. Team conversation
 3. Cultural fit and expectations alignment
@@ -59,4 +61,3 @@ After the technical assessment, approved candidates go through:
 ---
 
 Interested in joining the team? Check open positions at [voidr.co](https://voidr.co)
-

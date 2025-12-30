@@ -4,7 +4,7 @@
 
 <h3 align="center">Test Automation as a Service, AI-Powered</h3>
 
-# 🎨 Frontend Tests
+# Frontend Tests
 
 ## About the Role
 
@@ -24,7 +24,7 @@ Our Frontend tests focus on:
 
 ## Available Tests
 
-🚧 **Coming soon!** We're preparing amazing challenges to evaluate your frontend skills.
+**Coming soon.** We're preparing challenges to evaluate your frontend skills.
 
 ## What We Expect
 
@@ -39,16 +39,18 @@ Our Frontend tests focus on:
 ## Technologies
 
 At Voidr we primarily work with:
+
 - React/Next.js
 - TypeScript
 - Tailwind CSS / Styled Components
 - Jest / Testing Library / Playwright
 
-But we value professionals who know and adapt to different stacks.
+We value professionals who know and adapt to different stacks.
 
 ## Next Steps
 
 After the technical assessment, approved candidates go through:
+
 1. In-depth technical interview
 2. Team conversation
 3. Cultural fit and expectations alignment
@@ -56,4 +58,3 @@ After the technical assessment, approved candidates go through:
 ---
 
 Interested in joining the team? Check open positions at [voidr.co](https://voidr.co)
-
