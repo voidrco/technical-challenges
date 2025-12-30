@@ -8,7 +8,7 @@
 
 Take-Home Challenge
 
-Time: 3 days | Stack: Playwright
+Time: 5 days | Stack: Playwright
 
 ---
 
@@ -168,7 +168,7 @@ These are optional but will be highly valued:
 
 ## Timeline
 
-- **Duration:** 3 days from when you receive this challenge
+- **Duration:** 5 days from when you receive this challenge
 - **Expected effort:** Focus on quality over quantity. Well-structured, organized tests that demonstrate technical reasoning are more valuable than extensive coverage.
 
 ---

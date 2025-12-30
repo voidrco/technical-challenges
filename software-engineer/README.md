@@ -8,7 +8,7 @@
 
 Take-Home Challenge
 
-Time: 4 days | Stack: TypeScript
+Time: 5 days | Stack: TypeScript
 
 ---
 
@@ -143,7 +143,7 @@ We evaluate holistically, but pay particular attention to:
 
 ## Timeline
 
-- **Duration:** 4 days from when you receive this challenge
+- **Duration:** 5 days from when you receive this challenge
 - **Expected effort:** 8-16 hours of focused work
 - If you need more time due to other commitments, just let us know
 
