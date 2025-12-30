@@ -104,6 +104,28 @@ Clarity and objectivity in the presentation video, including explanation of test
 
 ---
 
+## AI-Assisted Development (Required)
+
+This challenge must be completed using AI assistance. We want to evaluate your ability to leverage AI tools effectively in your workflow.
+
+### Playwright MCP Configuration
+
+Configure and use Playwright MCP (Model Context Protocol) servers in your development environment. Document your MCP configuration in the README.
+
+### AI Usage Documentation
+
+In your README, include a section explaining:
+
+- Which AI tools you used (Cursor, Claude, GitHub Copilot, etc.)
+- How you used AI to assist in test development
+- Specific examples of prompts or interactions that were particularly effective
+- How you validated and refined AI-generated code
+- What you learned about using AI for test automation
+
+We're not looking for candidates who avoid AI — we want professionals who know how to use it strategically and understand what it generates.
+
+---
+
 ## Deliverables
 
 ### 1. GitHub Repository
