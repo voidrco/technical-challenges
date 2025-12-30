@@ -52,55 +52,48 @@ Minimum of 10 test cases covering:
 
 ---
 
-## Evaluation Criteria
+## Technical Constraints
 
-### Test Planning
-
-Clarity and justification of your test strategy, with focus on critical scenarios aligned with business impact.
-
-### Test Coverage and Precision
-
-Breadth of coverage and accuracy in verifying essential functionality, including error scenarios and critical flows.
-
-### Code Quality
-
-Code organization and maintainability, demonstrating best practices in test automation such as Page Object Model or Application Actions patterns.
-
-### Tool Integration
-
-Effective use of tools like Playwright, Docker, and GitHub Actions to ensure automation and consistency.
-
-### Communication
-
-Clarity and objectivity in the presentation video, including explanation of test strategy, challenges encountered, solutions applied, and improvement suggestions.
+- **Language:** TypeScript (required)
+- **Test Framework:** Playwright (required)
+- **Code Structure:** Use Page Objects or Application Actions patterns
+- The solution must be runnable locally with clear setup instructions
 
 ---
 
-## Expected Practices
+## Evaluation Criteria
 
-### Code Structure
+| Dimension | What We Look For |
+|-----------|------------------|
+| **Test Planning** | Clarity and justification of test strategy, focus on critical scenarios aligned with business impact |
+| **Test Coverage** | Breadth of coverage and accuracy in verifying essential functionality, including error scenarios and critical flows |
+| **Code Quality** | Code organization and maintainability, best practices in test automation, clean and readable code |
+| **Tool Integration** | Effective use of Playwright, Docker, and GitHub Actions to ensure automation and consistency |
+| **Communication** | README quality, documented trade-offs, clear explanations of technical decisions |
 
-- Use Page Objects or Application Actions to organize your code
-- Avoid test dependencies
-- Use descriptive names for tests and functions
+### What We're NOT Looking For
 
-### Code Quality
+- 100% coverage: Quality over quantity
+- Over-engineered solutions: Solve the problem at hand, not hypothetical future problems
+- Perfect code: We value pragmatic decisions and documented trade-offs
 
-- Clean, well-organized code
-- Comments where necessary
-- Reusable functions and methods
-- Clear and specific assertions
+---
 
-### Test Data Management
+## Deliverables
 
-- Well-organized test data
-- Use fixtures or helpers when appropriate
-- Avoid unnecessary hardcoded values
+1. **Source code** in a private GitHub repository
 
-### Configuration
+2. **README** with:
+   - Installation instructions
+   - How to run the tests
+   - Project structure
+   - Test strategy and rationale behind test cases
+   - AI usage documentation (see below)
 
-- Configure Playwright appropriately
-- Configure timeouts and retries efficiently
+3. **Video walkthrough** (maximum 5 minutes)
+   - Brief explanation of your solution and approach
+   - Quick demo of your tests running
+   - Record using Loom, OBS, or any screen recorder
 
 ---
 
@@ -110,7 +103,13 @@ This challenge must be completed using AI assistance. We want to evaluate your a
 
 ### Playwright MCP Configuration
 
-Configure and use Playwright MCP (Model Context Protocol) servers in your development environment. Document your MCP configuration in the README.
+Configure and use Playwright MCP (Model Context Protocol) in your IDE. MCP allows AI assistants to interact directly with Playwright for browser automation.
+
+**Resources:**
+- [Playwright MCP Server](https://github.com/microsoft/playwright-mcp)
+- [MCP Documentation](https://modelcontextprotocol.io/)
+
+Document your MCP configuration in the README.
 
 ### AI Usage Documentation
 
@@ -126,80 +125,71 @@ We're not looking for candidates who avoid AI — we want professionals who know
 
 ---
 
-## Deliverables
-
-### 1. GitHub Repository
-
-- Create a private GitHub repository
-- Add collaborator access for user: **operationsvoidr**
-- Include a complete README.md with:
-  - Installation instructions
-  - How to run the tests
-  - Project structure
-  - Test strategy and rationale behind test cases
-
-### 2. Presentation Video
-
-- Duration: maximum 5 minutes
-- Record using tools like Loom, OBS, or any screen recorder
-- Add the video link in the project README
-
----
-
-## Final Presentation
-
-After submitting your solution, you'll present your work in a 30-minute session with our CTO, Victor Buchalla.
-
-**Schedule your presentation:** https://ro.am/buchalla/entrevista
-
-During the presentation, you'll cover:
-
-- Complete walkthrough of your solution
-- Rationale behind technical decisions
-- What you would improve given more time
-- Deep understanding of how everything works, including any AI-generated code
-
-Even if you used AI assistance, you must understand exactly how the generated code functions and be able to explain its operation in detail.
-
----
-
 ## Stretch Goals
 
 These are optional but will be highly valued:
 
-### CI/CD
-
-- GitHub Actions or other CI/CD tool configuration
-- Automatic test execution on push/PR
-- Automatic test report publishing
-
-### Performance
-
-- Parallel test execution
-- Execution time optimization
-- Efficient worker usage
-
-### Additional
-
-- Performance testing (API response time)
-- Visual regression testing
-- Test data management strategy
-- Docker for execution environment
+- **CI/CD:** GitHub Actions configuration with automatic test execution on push/PR
+- **Performance:** Parallel test execution and efficient worker usage
+- **Visual Testing:** Visual regression testing implementation
+- **Docker:** Containerized execution environment
+- **Reporting:** Automatic test report publishing
 
 ---
 
 ## Timeline
 
 - **Duration:** 5 days from when you receive this challenge
-- **Expected effort:** Focus on quality over quantity. Well-structured, organized tests that demonstrate technical reasoning are more valuable than extensive coverage.
+- **Effort:** Focus on quality over quantity. Well-structured tests that demonstrate technical reasoning are more valuable than extensive coverage.
 
 ---
 
-## What We Value
+## How to Submit
 
-Quality over quantity. Focus on creating well-structured, organized tests that demonstrate your technical reasoning and ability to make pragmatic decisions.
+When you finish the challenge, follow these steps:
 
-If you have questions or encounter technical issues with the test applications, reach out to us.
+### Step 1: Grant Repository Access
+
+Add **operationsvoidr** as a collaborator to your private GitHub repository.
+
+### Step 2: Send Your Submission Email
+
+Send an email to **founders@voidr.co** with:
+
+**Subject:** `[ Technical Challenge Voidr ] - Your Full Name`
+
+**Body:**
+- Brief text introduction of your solution (2-3 paragraphs)
+- Link to your GitHub repository
+- Link to your 5-minute video walkthrough
+
+---
+
+## What Happens Next
+
+### If you pass this stage
+
+You'll receive an email with a link to schedule a 30-minute technical session with our CTO, Victor Buchalla.
+
+During this session, you'll:
+- Walk through your solution and key decisions
+- Explain the rationale behind technical choices
+- Discuss what you would improve given more time
+- Demonstrate deep understanding of all code, including AI-generated parts
+
+Be prepared to extend or modify the solution live (pair programming style).
+
+### If you don't pass this stage
+
+You'll receive structured, honest feedback explaining why it wasn't a match this time.
+
+---
+
+## Questions?
+
+If anything is unclear or you encounter issues with the test applications, reach out via email: **founders@voidr.co**
+
+Asking good questions is a positive signal, not a negative one.
 
 ---
 
