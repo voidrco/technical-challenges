@@ -178,7 +178,7 @@ Add **operationsvoidr** as a collaborator to your private GitHub repository.
 
 ### Step 2: Send Your Submission Email
 
-Send an email to **founders@voidr.co** with:
+Send an email to **people@voidr.co** with:
 
 **Subject:** `[ Technical Challenge Voidr ] - Your Full Name`
 
@@ -211,7 +211,7 @@ You'll receive structured, honest feedback explaining why it wasn't a match this
 
 ## Questions?
 
-If anything is unclear or you encounter issues, reach out via email: **founders@voidr.co**
+If anything is unclear or you encounter issues, reach out via email: **people@voidr.co**
 
 Asking good questions is a positive signal, not a negative one.
 
