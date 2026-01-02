@@ -14,6 +14,8 @@ This repository contains the technical challenges we use in our hiring process a
 
 | Position | Challenge | Description |
 |----------|-----------|-------------|
+| Account Executive | [AE Technical Challenge](./account-executive/) | Deal strategy and executive pitch simulation |
+| BDR | [BDR Technical Challenge](./bdr/) | Prospect research and discovery call simulation |
 | SDET | [SDET Technical Challenge](./sdet/) | API and Web UI automation with Playwright |
 | Software Engineer | [Exploratory Testing Agent](./software-engineer/) | AI agent for autonomous web application exploration |
 
@@ -31,6 +33,8 @@ This repository contains the technical challenges we use in our hiring process a
 ## Repository Structure
 
 ```
+├── account-executive/       # Account Executive Technical Challenge
+├── bdr/                     # BDR Technical Challenge
 ├── sdet/                    # SDET Technical Challenge
 └── software-engineer/       # Software Engineer Challenge
 ```
