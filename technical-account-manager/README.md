@@ -12,131 +12,158 @@ Time: 5 days | Role: Technical Account Manager
 
 ---
 
-## Sobre a Voidr
+## About Voidr
 
-**Voidr** é uma solução Service as a Software desenhada para ambientes enterprise com sistemas de missão crítica. Ela assegura alta disponibilidade, reduz riscos reputacionais e financeiros e aumenta a eficiência operacional por meio de automações de testes inteligentes, totalmente geridas por agentes de IA.
-
----
-
-## O Desafio
-
-Queremos conhecer sua capacidade de comunicar conceitos complexos de forma clara e envolvente. Neste desafio, você vai:
-
-1. **Pesquisar e compreender** o conceito de "Service as a Software" (SaaS 2.0) aplicado ao mercado de QA/Testes
-2. **Criar uma apresentação** usando ferramentas de IA
-3. **Gravar um vídeo** apresentando para um público executivo fictício
-
-> ⚠️ **Importante:** O uso de Inteligência Artificial é esperado e encorajado em todas as etapas deste desafio. Na Voidr, IA é parte do nosso dia a dia — queremos ver como você a utiliza como ferramenta de produtividade para pesquisar, criar e refinar seu trabalho.
+**Voidr** is a Service as a Software solution designed for enterprise environments with mission-critical systems. It ensures high availability, reduces reputational and financial risks, and increases operational efficiency through intelligent test automation, fully managed by AI agents.
 
 ---
 
-## Contexto
+## The Challenge
 
-Você é TAM da Voidr e foi convidado para apresentar em um evento interno de um cliente enterprise (ex: CTO Summit de um grande banco). O tema da sua apresentação é:
+We want to understand your ability to communicate complex concepts clearly and engagingly. In this challenge, you will:
 
-> **"Por que Service as a Software está revolucionando a forma como empresas garantem a qualidade de seus sistemas críticos"**
+1. **Research and understand** the concept of "Service as a Software" (SaaS 2.0) applied to the QA/Testing market
+2. **Create a presentation** using AI tools
+3. **Record a video** presenting to a fictional executive audience
 
-Seu público:
-- CTOs e VPs de Tecnologia
-- Diretores de QA e Engenharia
-- Gerentes de Produto
+> ⚠️ **Important:** The use of Artificial Intelligence is expected and encouraged at all stages of this challenge. At Voidr, AI is part of our daily routine — we want to see how you use it as a productivity tool to research, create, and refine your work.
 
 ---
 
-## Entregáveis
+## Context
 
-### 1. Apresentação (PDF ou PPTX)
+You are a TAM at Voidr and have been invited to present at an internal event for an enterprise client (e.g., CTO Summit at a major bank). Your presentation topic is:
 
-- **5 a 8 slides** (máximo)
-- Deve abordar:
-  - O que é Service as a Software e como difere de SaaS tradicional
-  - Por que isso importa para QA/Testes em sistemas de missão crítica
-  - Benefícios tangíveis (eficiência, redução de risco, ROI)
-  - Um exemplo ou caso de uso ilustrativo (pode ser fictício)
-- **Requisito:** Use ferramentas de IA para criar e aprimorar a apresentação (ex: ChatGPT, Claude, Gamma, Beautiful.ai, Tome, Midjourney, etc.). Isso é esperado e faz parte da avaliação.
+> **"Why Service as a Software is revolutionizing how companies ensure the quality of their critical systems"**
 
-### 2. Vídeo de Apresentação (duas partes)
+Your audience:
+- CTOs and VPs of Technology
+- Directors of QA and Engineering
+- Product Managers
 
-- **Total: 5 minutos** (mínimo 4, máximo 6)
-- Pode usar Loom, Zoom gravado, ou qualquer ferramenta
-- Não precisa de edição profissional — queremos ver você comunicando
+---
 
-| Parte | Duração | O que apresentar |
-|-------|---------|------------------|
-| **Parte 1** | ~3 min | Apresentação dos slides sobre Service as a Software |
-| **Parte 2** | ~2 min | Resposta ao cenário de crise abaixo |
+## Deliverables
 
-#### 🚨 Cenário de Crise (Parte 2)
+### 1. Presentation (PDF or PPTX)
 
-> Imagine que, ao final da sua apresentação, o Diretor de QA do cliente te interrompe e diz:
+- **5 to 8 slides** (maximum)
+- Must cover:
+  - What is Service as a Software and how it differs from traditional SaaS
+  - Why this matters for QA/Testing in mission-critical systems
+  - Tangible benefits (efficiency, risk reduction, ROI)
+  - An illustrative example or use case (can be fictional)
+- **Requirement:** Use AI tools to create and improve the presentation (e.g., ChatGPT, Claude, Gamma, Beautiful.ai, Tome, Midjourney, etc.). This is expected and part of the evaluation.
+
+### 2. Presentation Video (two parts)
+
+- **Total: 5 minutes** (minimum 4, maximum 6)
+- You can use Loom, recorded Zoom, or any tool
+- No professional editing needed — we want to see you communicating
+
+| Part | Duration | What to Present |
+|------|----------|-----------------|
+| **Part 1** | ~3 min | Slides presentation about Service as a Software |
+| **Part 2** | ~2 min | Response to the crisis scenario below |
+
+#### 🚨 Crisis Scenario (Part 2)
+
+> Imagine that at the end of your presentation, the client's QA Director interrupts you and says:
 >
-> *"Legal a apresentação, mas preciso ser honesto: nosso CTO novo está questionando todos os contratos de fornecedores. Ele quer ver ROI claro nos próximos 30 dias ou vai cancelar. A equipe técnica gosta da Voidr, mas não conseguimos provar valor para ele. O que você faria?"*
+> *"Nice presentation, but I need to be honest: our new CTO is questioning all vendor contracts. He wants to see clear ROI in the next 30 days or he'll cancel. The technical team likes Voidr, but we can't prove value to him. What would you do?"*
 
-Grave sua resposta a esse cenário em até 2 minutos. Queremos ver como você:
-- Reage sob pressão
-- Estrutura um plano de ação
-- Demonstra empatia e postura consultiva
+Record your response to this scenario in up to 2 minutes. We want to see how you:
+- React under pressure
+- Structure an action plan
+- Demonstrate empathy and consultative approach
 
-### 3. README Pessoal
+### 3. Personal README
 
-Um breve documento (pode ser no mesmo repositório ou um .md separado) contendo:
-- Quais ferramentas de IA você usou e como (queremos entender seu processo!)
-- O que você aprendeu sobre Service as a Software
-- Uma reflexão: como você usaria esse conhecimento em conversas com clientes da Voidr?
-
----
-
-## Critérios de Avaliação
-
-| Critério | Peso | O que avaliamos |
-|----------|------|-----------------|
-| **Clareza de Comunicação** | 25% | Explicação clara de conceitos técnicos para público executivo |
-| **Entendimento do Conceito** | 20% | Profundidade na compreensão de Service as a Software e QA |
-| **Gestão de Crise** | 20% | Resposta ao cenário: empatia, estrutura, pensamento estratégico |
-| **Presença e Postura** | 15% | Confiança, tom de voz, conexão com o público |
-| **Uso Estratégico de IA** | 10% | Como você utilizou IA para pesquisar, criar e refinar o trabalho |
-| **Qualidade Visual** | 10% | Slides bem estruturados, visualmente limpos |
-
-> 💡 **Sobre o uso de IA:** Não estamos avaliando se você "fez sozinho" — estamos avaliando sua capacidade de usar IA como multiplicador de produtividade e qualidade. Documente seu processo no README pessoal.
+A brief document (can be in the same repository or a separate .md file) containing:
+- Which AI tools you used and how (we want to understand your process!)
+- What you learned about Service as a Software
+- A reflection: how would you use this knowledge in conversations with Voidr clients?
 
 ---
 
-## Como Entregar
+## Evaluation Criteria
 
-1. Faça upload da apresentação (PDF ou PPTX)
-2. Hospede o vídeo em plataforma pública (YouTube não-listado, Loom, Google Drive com permissão)
-3. Responda o formulário de candidatura com os links
+| Criterion | Weight | What We Evaluate |
+|-----------|--------|------------------|
+| **Communication Clarity** | 25% | Clear explanation of technical concepts to executive audience |
+| **Concept Understanding** | 20% | Depth of understanding of Service as a Software and QA |
+| **Crisis Management** | 20% | Response to scenario: empathy, structure, strategic thinking |
+| **Presence and Posture** | 15% | Confidence, tone of voice, connection with the audience |
+| **Strategic AI Usage** | 10% | How you used AI to research, create, and refine your work |
+| **Visual Quality** | 10% | Well-structured, visually clean slides |
 
-**Prazo:** 5 dias corridos após receber o desafio
+> 💡 **About AI usage:** We're not evaluating whether you "did it alone" — we're evaluating your ability to use AI as a productivity and quality multiplier. Document your process in the personal README.
 
 ---
 
-## Recursos para Pesquisa
+## How to Submit
 
-Sugestões de fontes para entender Service as a Software:
+1. Upload the presentation (PDF or PPTX)
+2. Host the video on a public platform (unlisted YouTube, Loom, Google Drive with permission)
+3. Send an email to **people@voidr.co** with:
+
+**Subject:** `[ TAM Challenge Voidr ] - Your Full Name`
+
+**Body:**
+- Brief introduction about yourself (2-3 paragraphs)
+- Link to your presentation
+- Link to your video
+- Link to your personal README with AI usage documentation
+
+**Deadline:** 5 business days after receiving the challenge
+
+---
+
+## Research Resources
+
+Suggested sources to understand Service as a Software:
 
 - [The Rise of Service as a Software](https://a16z.com/service-as-software/) - Andreessen Horowitz
-- Artigos sobre AI-first companies e vertical SaaS
-- Cases de QA/Testing automation (Mabl, Testim, etc.)
-- Conceito de "Human-in-the-loop" vs. "AI-in-the-loop"
+- Articles about AI-first companies and vertical SaaS
+- QA/Testing automation cases (Mabl, Testim, etc.)
+- Concept of "Human-in-the-loop" vs. "AI-in-the-loop"
 
-> 💡 **Dica:** Use IA para pesquisar e estruturar, mas internalize o conceito e apresente com suas palavras. Queremos ver sua capacidade de síntese e comunicação, não um copy-paste de outputs de LLM.
-
----
-
-## Dúvidas?
-
-Se tiver dúvidas sobre o desafio, envie um e-mail para **people@voidr.co** com o assunto `[TAM Challenge] Dúvida - Seu Nome`.
+> 💡 **Tip:** Use AI to research and structure, but internalize the concept and present in your own words. We want to see your synthesis and communication skills, not a copy-paste of LLM outputs.
 
 ---
 
-## Boa sorte! 🚀
+## What Happens Next
 
-Estamos ansiosos para ver como você comunica valor, constrói narrativas e usa IA como ferramenta do dia a dia.
+### If you pass this stage
 
-*A Voidr valoriza diversidade de trajetórias. Não existe resposta certa — queremos ver você e seu processo.*
+You'll receive an email with a link to schedule a 30-minute session with one of our founders.
+
+During this session, you'll:
+- Walk through your presentation and approach
+- Role-play a live client scenario
+- Discuss your experience with customer success and technical relationships
+- Talk about how you'd help clients succeed with Voidr
+
+### If you don't pass this stage
+
+You'll receive structured, honest feedback explaining why it wasn't a match this time.
+
+---
+
+## Questions?
+
+If you have questions about the challenge, send an email to **people@voidr.co** with the subject `[TAM Challenge] Question - Your Name`.
+
+Asking good questions is a positive signal, not a negative one.
+
+---
+
+## Good luck! 🚀
+
+We're excited to see how you communicate value, build narratives, and use AI as a daily tool.
+
+*Voidr values diverse backgrounds. There's no right answer — we want to see you and your process.*
 
 ---
 
 **Note:** This challenge is used in actual hiring processes. We expect candidates to develop their own original solutions.
-
