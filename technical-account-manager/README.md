@@ -25,7 +25,7 @@ Before starting the challenge, you need to deeply understand what Voidr does and
 - **Website:** https://voidr.co
 - **LinkedIn:** https://linkedin.com/company/voidrco
 - **Product pages:** Explore all sections of the website
-- **Key reading:** [The Rise of Service as a Software](https://a16z.com/service-as-software/) - Andreessen Horowitz
+- **Key reading:** [AI leads a Service as Software paradigm shift](https://foundationcapital.com/ai-service-as-software/) - Foundation Capital
 
 Additional research topics:
 - AI-first companies and vertical SaaS
@@ -207,7 +207,7 @@ As a Technical Account Manager at Voidr, you'll be the trusted advisor for our e
 
 This role requires someone who can translate complex technical concepts into business value, navigate challenging situations with empathy, and build lasting partnerships with CTOs, VPs of Engineering, and QA leaders.
 
-Interested? Check open positions at [voidr.co/careers](https://voidr.co)
+Interested? Check the full job description at [voidr.co/careers](https://voidr.co/pt-br/empresa/carreiras/tam-mid)
 
 ---
 
