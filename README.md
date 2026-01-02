@@ -18,6 +18,7 @@ This repository contains the technical challenges we use in our hiring process a
 | BDR | [BDR Technical Challenge](./bdr/) | Prospect research and discovery call simulation |
 | SDET | [SDET Technical Challenge](./sdet/) | API and Web UI automation with Playwright |
 | Software Engineer | [Exploratory Testing Agent](./software-engineer/) | AI agent for autonomous web application exploration |
+| Technical Account Manager | [TAM Technical Challenge](./technical-account-manager/) | Service as a Software presentation and crisis management |
 
 ---
 
@@ -36,7 +37,8 @@ This repository contains the technical challenges we use in our hiring process a
 ├── account-executive/       # Account Executive Technical Challenge
 ├── bdr/                     # BDR Technical Challenge
 ├── sdet/                    # SDET Technical Challenge
-└── software-engineer/       # Software Engineer Challenge
+├── software-engineer/       # Software Engineer Challenge
+└── technical-account-manager/ # Technical Account Manager Challenge
 ```
 
 ---
