@@ -180,7 +180,7 @@ We're evaluating your ability to leverage AI strategically as a force multiplier
 
 Send an email to **hiring@jobs.voidr.co** with:
 
-**Subject:** `[ AE Challenge Voidr ] - Your Full Name`
+**Subject:** `[ Technical Challenge Voidr ] - Your Full Name`
 
 **Body:**
 - Brief introduction about yourself and your enterprise sales experience (2-3 paragraphs)

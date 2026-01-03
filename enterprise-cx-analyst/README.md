@@ -167,7 +167,7 @@ We're evaluating your ability to leverage AI strategically, not avoid it.
 
 Send an email to **hiring@jobs.voidr.co** with:
 
-**Subject:** `[ Enterprise CX Analyst Challenge Voidr ] - Your Full Name`
+**Subject:** `[ Technical Challenge Voidr ] - Your Full Name`
 
 **Body:**
 - Brief introduction about yourself (2-3 paragraphs)
