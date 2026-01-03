@@ -4,17 +4,17 @@
 
 <h3 align="center">Test Automation as a Service, AI-Powered</h3>
 
-# Technical Account Manager Challenge
+# Enterprise CX Analyst Challenge
 
 Take-Home Challenge
 
-Time: 5 days | Role: Technical Account Manager
+Time: 5 days | Role: Enterprise CX Analyst
 
 ---
 
 ## Overview
 
-This challenge evaluates your ability to communicate complex technical concepts to executive audiences, manage client relationships under pressure, and leverage AI as a productivity tool. You'll research the concept of "Service as a Software," create a presentation, and demonstrate crisis management skills.
+This challenge evaluates your ability to communicate complex technical concepts to executive audiences, drive customer success and adoption, and leverage AI as a productivity tool. You'll research the concept of "Service as a Software," create a presentation, and demonstrate your ability to handle high-stakes customer situations.
 
 ---
 
@@ -31,6 +31,7 @@ Additional research topics:
 - AI-first companies and vertical SaaS
 - QA/Testing automation landscape (Mabl, Testim, etc.)
 - "Human-in-the-loop" vs. "AI-in-the-loop" concepts
+- Customer Experience trends in B2B SaaS
 
 Your understanding of Service as a Software and how Voidr applies it will be evaluated throughout the challenge.
 
@@ -44,7 +45,7 @@ Create a presentation about Service as a Software for an executive audience.
 
 #### Scenario
 
-You are a TAM at Voidr and have been invited to present at an internal event for an enterprise client (e.g., CTO Summit at a major bank). Your presentation topic is:
+You are a CX Analyst at Voidr and have been invited to present at an internal event for an enterprise client (e.g., CTO Summit at a major bank). Your presentation topic is:
 
 > **"Why Service as a Software is revolutionizing how companies ensure the quality of their critical systems"**
 
@@ -66,7 +67,7 @@ Your audience:
 
 ---
 
-### Part 2: Executive Presentation + Crisis Management (Video Deliverable)
+### Part 2: Executive Presentation + Customer Escalation (Video Deliverable)
 
 Record a video (total **5-6 minutes**) with two parts.
 
@@ -77,7 +78,7 @@ Present your slides as if you were at the CTO Summit. Demonstrate:
 - Confident, engaging delivery
 - Connection with the audience
 
-#### Part 2B: Crisis Scenario Response (~2 minutes)
+#### Part 2B: Customer Escalation Response (~2 minutes)
 
 Immediately after your presentation, respond to this scenario:
 
@@ -87,8 +88,9 @@ Immediately after your presentation, respond to this scenario:
 
 We want to see how you:
 - React under pressure
-- Structure an action plan
-- Demonstrate empathy and consultative approach
+- Structure an action plan focused on customer outcomes
+- Demonstrate empathy and customer-centric approach
+- Navigate between technical value and business impact
 
 #### Video Guidelines
 
@@ -111,7 +113,7 @@ Include:
   - Preparing your talking points
   - Any other aspect of the challenge
 - **Example prompts** that were particularly effective
-- **What you learned** about using AI for client-facing work
+- **What you learned** about using AI for customer-facing work
 
 We're evaluating your ability to leverage AI strategically, not avoid it.
 
@@ -123,7 +125,7 @@ We're evaluating your ability to leverage AI strategically, not avoid it.
 |-----------|------------------|
 | **Communication Clarity** | Clear explanation of technical concepts to executive audience |
 | **Concept Understanding** | Depth of understanding of Service as a Software and QA market |
-| **Crisis Management** | Response to scenario: empathy, structure, strategic thinking |
+| **Customer-Centric Thinking** | Response to scenario: empathy, structure, focus on customer outcomes |
 | **Presence and Posture** | Confidence, tone of voice, connection with the audience |
 | **AI Usage** | Strategic and conscious use of AI tools, quality of documentation |
 | **Visual Quality** | Well-structured, visually clean presentation |
@@ -144,7 +146,7 @@ We're evaluating your ability to leverage AI strategically, not avoid it.
    - PDF or PPTX format
 
 2. **Video Presentation**
-   - 5-6 minutes total (3 min presentation + 2 min crisis response)
+   - 5-6 minutes total (3 min presentation + 2 min escalation response)
    - Loom link or video file
 
 3. **AI Usage Documentation**
@@ -165,7 +167,7 @@ We're evaluating your ability to leverage AI strategically, not avoid it.
 
 Send an email to **people@voidr.co** with:
 
-**Subject:** `[ TAM Challenge Voidr ] - Your Full Name`
+**Subject:** `[ Enterprise CX Analyst Challenge Voidr ] - Your Full Name`
 
 **Body:**
 - Brief introduction about yourself (2-3 paragraphs)
@@ -183,9 +185,9 @@ You'll receive an email with a link to schedule a 30-minute session with one of 
 
 During this session, you'll:
 - Walk through your presentation and approach
-- Role-play a live client scenario
-- Discuss your experience with customer success and technical relationships
-- Talk about how you'd help clients succeed with Voidr
+- Role-play a live customer scenario
+- Discuss your experience with customer success and experience
+- Talk about how you'd help customers succeed with Voidr
 
 ### If you don't pass this stage
 
@@ -203,12 +205,13 @@ Asking good questions is a positive signal, not a negative one.
 
 ## About the Role
 
-As a Technical Account Manager at Voidr, you'll be the trusted advisor for our enterprise clients with mission-critical systems. You'll help them maximize value from our AI-powered test automation platform, manage relationships with technical stakeholders, and ensure successful adoption across their engineering teams.
+As an Enterprise CX Analyst at Voidr, you'll be the voice of our enterprise customers internally and the face of Voidr externally. You'll drive customer adoption, ensure successful onboarding, and build strong relationships with technical stakeholders. Your mission is to maximize customer value from our AI-powered test automation platform, proactively identify risks, and turn customers into advocates.
 
-This role requires someone who can translate complex technical concepts into business value, navigate challenging situations with empathy, and build lasting partnerships with CTOs, VPs of Engineering, and QA leaders.
+This role is ideal for someone with a strong CX background who wants to work with technical products and enterprise customers. You should be comfortable translating complex technical concepts into business value, navigating challenging situations with empathy, and building lasting partnerships with CTOs, VPs of Engineering, and QA leaders.
 
-Interested? Check the full job description at [voidr.co/careers](https://voidr.co/pt-br/empresa/carreiras/tam-mid)
+Interested? Check the full job description at [voidr.co/careers](https://voidr.co/pt-br/empresa/carreiras)
 
 ---
 
 **Note:** This challenge is used in actual hiring processes. We expect candidates to develop their own original solutions.
+
