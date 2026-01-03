@@ -178,7 +178,7 @@ We're evaluating your ability to leverage AI strategically as a force multiplier
 
 ## How to Submit
 
-Send an email to **people@voidr.co** with:
+Send an email to **hiring@jobs.voidr.co** with:
 
 **Subject:** `[ AE Challenge Voidr ] - Your Full Name`
 
@@ -210,7 +210,7 @@ You'll receive structured, honest feedback explaining why it wasn't a match this
 
 ## Questions?
 
-If anything is unclear, reach out via email: **people@voidr.co**
+If anything is unclear, reach out via email: **hiring@jobs.voidr.co**
 
 Asking good questions is a positive signal, not a negative one.
 
