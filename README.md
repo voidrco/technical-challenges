@@ -15,6 +15,7 @@ This repository contains the technical challenges we use in our hiring process a
 | Position | Challenge | Description |
 |----------|-----------|-------------|
 | Account Executive | [AE Technical Challenge](./account-executive/) | Deal strategy and executive pitch simulation |
+| AI Deployment | [AI Deployment Challenge](./ai-deployment/) | Business case and QBR presentation for contract expansion |
 | BDR | [BDR Technical Challenge](./bdr/) | Prospect research and discovery call simulation |
 | Enterprise CX Analyst | [CX Analyst Challenge](./enterprise-cx-analyst/) | Service as a Software presentation and customer escalation |
 | SDET | [SDET Technical Challenge](./sdet/) | API and Web UI automation with Playwright |
@@ -35,6 +36,7 @@ This repository contains the technical challenges we use in our hiring process a
 
 ```
 ├── account-executive/       # Account Executive Technical Challenge
+├── ai-deployment/           # AI Deployment Technical Challenge
 ├── bdr/                     # BDR Technical Challenge
 ├── enterprise-cx-analyst/   # Enterprise CX Analyst Challenge
 ├── sdet/                    # SDET Technical Challenge
