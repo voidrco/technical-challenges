@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://voidr.co/logo.svg" alt="Voidr Logo" width="200"/>
+  <img src="https://unicorn-images.b-cdn.net/277503c3-f842-45d5-88de-69c30719b278?optimizer=gif" width="200" alt="Voidr Logo" />
 </p>
 
 <h3 align="center">Test Automation as a Service, AI-Powered</h3>
