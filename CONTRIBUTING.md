@@ -60,7 +60,7 @@ Have ideas to improve the tests?
 
 If you're a Voidr team member adding a new test:
 
-1. Create a new folder in the appropriate category (frontend, backend, sdet, devops)
+1. Create a new folder in the appropriate category (frontend, backend, ai-test-engineer, devops)
 2. Include a detailed README.md with:
    - Challenge description
    - Learning objectives

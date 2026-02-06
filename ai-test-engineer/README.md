@@ -4,7 +4,7 @@
 
 <h3 align="center">Test Automation as a Service, AI-Powered</h3>
 
-# SDET Technical Challenge
+# AI Test Engineer Technical Challenge
 
 Take-Home Challenge
 
@@ -14,7 +14,9 @@ Time: 5 days | Stack: Playwright
 
 ## Overview
 
-Develop an automated test suite covering API and Web UI testing using Playwright. This challenge evaluates your ability to create maintainable, reliable test automation that demonstrates technical depth and practical judgment.
+As an AI Test Engineer at Voidr, you'll pilot AI Agents that autonomously test mission-critical systems for companies like AB-InBev, Stone, Serasa, and Philips. Playwright is the engine our agents use to interact with applications — and mastering it is foundational to the role.
+
+This challenge evaluates your ability to create maintainable, reliable test automation with Playwright that demonstrates technical depth and practical judgment. It's a preview of the foundation you'll build on every day: writing and structuring the kind of tests that our AI Agents execute autonomously at scale.
 
 ---
 
@@ -68,6 +70,7 @@ Minimum of 10 test cases covering:
 | **Test Planning** | Clarity and justification of test strategy, focus on critical scenarios aligned with business impact |
 | **Test Coverage** | Breadth of coverage and accuracy in verifying essential functionality, including error scenarios and critical flows |
 | **Code Quality** | Code organization and maintainability, best practices in test automation, clean and readable code |
+| **AI Collaboration** | How effectively you leverage AI as a co-pilot for test creation — this is the core of the AI Test Engineer role at Voidr |
 | **Tool Integration** | Effective use of Playwright, Docker, and GitHub Actions to ensure automation and consistency |
 | **Communication** | README quality, documented trade-offs, clear explanations of technical decisions |
 
@@ -99,11 +102,11 @@ Minimum of 10 test cases covering:
 
 ## AI-Assisted Development (Required)
 
-This challenge must be completed using AI assistance. We want to evaluate your ability to leverage AI tools effectively in your workflow.
+At Voidr, AI Test Engineers pilot AI Agents every day — using AI to generate, validate, and refine tests is the job, not a bonus. This challenge must be completed using AI assistance because we want to see how you work with AI as a co-pilot, which is exactly what you'll do here.
 
 ### Playwright MCP Configuration
 
-Configure and use Playwright MCP (Model Context Protocol) in your IDE. MCP allows AI assistants to interact directly with Playwright for browser automation.
+Configure and use Playwright MCP (Model Context Protocol) in your IDE. MCP allows AI assistants to interact directly with Playwright for browser automation — the same pattern our AI Agents use in production.
 
 **Resources:**
 - [Playwright MCP Server](https://github.com/microsoft/playwright-mcp)
@@ -116,12 +119,12 @@ Document your MCP configuration in the README.
 In your README, include a section explaining:
 
 - Which AI tools you used (Cursor, Claude, GitHub Copilot, etc.)
-- How you used AI to assist in test development
+- How you used AI to generate and refine test cases — did you prompt it to analyze the application? To suggest edge cases? To write assertions?
 - Specific examples of prompts or interactions that were particularly effective
-- How you validated and refined AI-generated code
-- What you learned about using AI for test automation
+- How you validated and refined AI-generated code — what did the AI get wrong, and how did you fix it?
+- What you learned about using AI for test automation and how it changed your workflow
 
-We're not looking for candidates who avoid AI — we want professionals who know how to use it strategically and understand what it generates.
+We're not looking for candidates who avoid AI — we want professionals who know how to pilot it strategically, evaluate what it generates, and understand when to trust or override its output. This is the core skill of an AI Test Engineer.
 
 ---
 
@@ -129,6 +132,7 @@ We're not looking for candidates who avoid AI — we want professionals who know
 
 These are optional but will be highly valued:
 
+- **Agent-Driven Testing:** Create a simple agent loop where an LLM analyzes the application state and decides what to test next — this bridges directly to what you'll do at Voidr
 - **CI/CD:** GitHub Actions configuration with automatic test execution on push/PR
 - **Performance:** Parallel test execution and efficient worker usage
 - **Visual Testing:** Visual regression testing implementation
