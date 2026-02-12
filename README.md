@@ -15,10 +15,11 @@ This repository contains the technical challenges we use in our hiring process a
 | Position | Challenge | Description |
 |----------|-----------|-------------|
 | Account Executive | [AE Technical Challenge](./account-executive/) | Deal strategy and executive pitch simulation |
+| AI Content Engineer | [AI Content Engineer Challenge](./ai-content-engineer/) | Technical content creation with AI tools |
 | AI Deployment | [AI Deployment Challenge](./ai-deployment/) | Business case and QBR presentation for contract expansion |
+| AI Test Engineer | [AI Test Engineer Technical Challenge](./ai-test-engineer/) | API and Web UI automation with Playwright |
 | BDR | [BDR Technical Challenge](./bdr/) | Prospect research and discovery call simulation |
 | CRO | [CRO Technical Challenge](./cro/) | Revenue strategy and board presentation |
-| AI Test Engineer | [AI Test Engineer Technical Challenge](./ai-test-engineer/) | API and Web UI automation with Playwright |
 | RevOps Engineer | [RevOps Engineer Challenge](./revops-engineer/) | Revenue operations diagnosis and technical implementation |
 | RevOps Manager | [RevOps Manager Challenge](./revops-manager/) | Revenue operations strategy, forecasting model, and automation architecture |
 | Software Engineer | [Exploratory Testing Agent](./software-engineer/) | AI agent for autonomous web application exploration |
@@ -38,10 +39,11 @@ This repository contains the technical challenges we use in our hiring process a
 
 ```
 ├── account-executive/       # Account Executive Technical Challenge
+├── ai-content-engineer/     # AI Content Engineer Technical Challenge
 ├── ai-deployment/           # AI Deployment Technical Challenge
+├── ai-test-engineer/        # AI Test Engineer Technical Challenge
 ├── bdr/                     # BDR Technical Challenge
 ├── cro/                     # Chief Revenue Officer Technical Challenge
-├── ai-test-engineer/        # AI Test Engineer Technical Challenge
 ├── revops-engineer/         # RevOps Engineer Technical Challenge
 ├── revops-manager/          # RevOps Manager Technical Challenge
 └── software-engineer/       # Software Engineer Challenge
