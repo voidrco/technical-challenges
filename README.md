@@ -23,6 +23,7 @@ This repository contains the technical challenges we use in our hiring process a
 | RevOps Engineer | [RevOps Engineer Challenge](./revops-engineer/) | Revenue operations diagnosis and technical implementation |
 | RevOps Manager | [RevOps Manager Challenge](./revops-manager/) | Revenue operations strategy, forecasting model, and automation architecture |
 | Software Engineer | [Exploratory Testing Agent](./software-engineer/) | AI agent for autonomous web application exploration |
+| Technical Product Manager | [TPM Challenge](./technical-product-manager/) | Product strategy, PRD and vision for AI & Developer Platform |
 
 ---
 
@@ -46,7 +47,8 @@ This repository contains the technical challenges we use in our hiring process a
 ├── cro/                     # Chief Revenue Officer Technical Challenge
 ├── revops-engineer/         # RevOps Engineer Technical Challenge
 ├── revops-manager/          # RevOps Manager Technical Challenge
-└── software-engineer/       # Software Engineer Challenge
+├── software-engineer/       # Software Engineer Challenge
+└── technical-product-manager/ # Technical Product Manager Challenge
 ```
 
 ---
