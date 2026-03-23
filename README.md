@@ -22,6 +22,7 @@ This repository contains the technical challenges we use in our hiring process a
 | CRO | [CRO Technical Challenge](./cro/) | Revenue strategy and board presentation |
 | RevOps Engineer | [RevOps Engineer Challenge](./revops-engineer/) | Revenue operations diagnosis and technical implementation |
 | RevOps Manager | [RevOps Manager Challenge](./revops-manager/) | Revenue operations strategy, forecasting model, and automation architecture |
+| Sales — Technical Account Executive | [TAE Technical Challenge](./sales-tae/) | Technical discovery, PoC design, and demo close for enterprise engineering buyers |
 | Software Engineer | [Exploratory Testing Agent](./software-engineer/) | AI agent for autonomous web application exploration |
 
 ---
@@ -46,6 +47,7 @@ This repository contains the technical challenges we use in our hiring process a
 ├── cro/                     # Chief Revenue Officer Technical Challenge
 ├── revops-engineer/         # RevOps Engineer Technical Challenge
 ├── revops-manager/          # RevOps Manager Technical Challenge
+├── sales-tae/               # Sales — Technical Account Executive Challenge
 └── software-engineer/       # Software Engineer Challenge
 ```
 
