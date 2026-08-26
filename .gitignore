@@ -1,0 +1,37 @@
+# Arquivos de solução dos candidatos
+solutions/
+submissions/
+candidate-*/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependências comuns
+node_modules/
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+target/
+build/
+dist/
+
+# Configurações locais
+.env.local
+.env.*.local
+config.local.*
+

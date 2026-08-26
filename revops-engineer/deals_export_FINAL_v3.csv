@@ -1,0 +1,22 @@
+deal_id,company_name,deal_name,amount,currency,stage,created,expected_close,actual_close,owner,source,segment,notes
+D001,FinBank SA,AI Test Automation - Core,280000,BRL,Closed Won,2025-06-15,2025-10-15,2025-10-28,milson@voidr.co,Founder Network,Enterprise,
+D002,HealthPlus Tech,QA Platform - Patient Portal,95000,BRL,Won,20/07/2025,2025-11-01,15-Nov-2025,Marina Silva,Inbound,Mid-Market,
+D003,LogiTech Express,Test Automation - Logistics,180000,BRL,Negotiation,2025-08-10,,, Marina,Outbound BDR,Enterprise,waiting for procurement
+D004,InsureSafe Digital,AI Testing - Claims,320000,BRL,Proposal Sent,2025-09-01,2025-12-15,,milson,Partner,Enterprise,
+D005,RetailMax,QA Automation - E-commerce,75000,BRL,Discovery,2025-09-15,,,marina.silva@voidr.co,inbound,Mid Market,
+D006,AutoParts Online,Test Coverage - Inventory,110000,BRL,discovery,2025-10-01,2026-01-15,,Marina Silva,Outbound BDR,Mid-Market,
+D007,NeoCredit Fintech,AI Agents - Credit Engine,50000,USD,Proposal,2025-08-20,2025-11-30,,Milson,Event,enterprise,hot deal
+D008,MedDevice Corp,QA Platform - FDA Compliance,350000,BRL,Technical Validation,2025-07-01,2025-09-30,,milson@voidr.co,Outbound BDR,Enterprise,
+D009,EduTech Brasil,Test Automation - LMS,65000,BRL,Lost,2025-05-10,,2025-09-20,Marina,Inbound,Mid-Market,chose competitor
+D010,PayFlow Systems,AI Testing - Payment Gateway,195000,BRL,Closed Won,2025-04-01,2025-08-01,2025-08-15,milson,Founder Network,Enterprise,
+D011,CloudBank Digital,QA Automation - Digital Bank,290000,BRL,Negociação,2025-10-15,2026-02-28,,Marina Silva,Outbound BDR,Enterprise,
+D012,FoodChain Logistics,Test Platform - Supply Chain,85000,BRL,Discovery,2025-11-01,,,marina,Inbound,Mid-Market,
+D013,NeoCredit Fintech,AI Agents - Credit Engine,250000,BRL,Proposal Sent,2025-08-20,2025-11-30,,Milson,Event,Enterprise,same deal as D007 - corrected value
+D014,TechManufatura SA,QA Industrial,45000,USD,Nego,2025-10-20,2026-01-30,,Marina,Outbound,enterprise,
+D015,DataVault Analytics,Data Validation Suite,180000,BRL,Proposal Sent,2025-10-01,2025-12-20,,milson@voidr.co,Founder Network,Enterprise,
+D016,HealthPlus Tech,QA Platform Expansion,120000,BRL,Negotiation,2025-11-10,2026-01-15,,Marina Silva,Expansion,Mid-Market,upsell from D002
+D017,FastRetail Group,Synthetic Monitor - Checkout,230000,BRL,Discovery,2025-10-20,,,Marina,Outbound BDR,Enterprise,
+D018,UrbanMobility Tech,QA Platform - Ride Sharing,310000,BRL,discovery,2025-12-10,2026-03-15,,marina.silva@voidr.co,Inbound,Enterprise,
+D019,AgroTech Solutions,Data Quality Dashboard,95000,BRL,Closed Won,2025-06-01,2025-10-01,2025-10-05,Milson,Founder Network,Mid-Market,
+D020,SecureID Fintech,AI Testing - KYC Flow,470000,BRL,Negotiation,2025-09-05,2025-12-01,,milson,Event,Enterprise,
+D021,MedDevice Corp,QA Platform - FDA Compliance,350000,BRL,Negotiation,2025-07-01,2025-11-30,,milson@voidr.co,Outbound BDR,Enterprise,duplicate? same company as D008
