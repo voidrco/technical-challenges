@@ -18,7 +18,7 @@ This challenge evaluates how you learn about an account, use AI to prepare a rel
 
 You will receive a research packet about a fictional enterprise software company. Your job is to separate signals from assumptions, choose an executive and a potential technical champion, prepare personalized outreach, simulate a cold call, and show how an AI SDR, Lemlist and a CRM would support the work.
 
-We evaluate your decisions, learning and execution. Previous sales experience, a paid tool subscription and software development experience are not required.
+We evaluate your decisions, learning and execution. Previous sales employment and a paid tool subscription are not required. Bring an explainable programming project from study or personal work; professional development experience is not required. The exercise itself focuses on commercial execution.
 
 > **Language requirement:** Submit the HTML and record the presentation in **English**. AI-assisted writing and language preparation are welcome. We assess understandable communication and your ability to explain your decisions, not accent or native fluency.
 
@@ -208,6 +208,7 @@ Send an email to **hiring@jobs.voidr.co** with:
 - Brief introduction about a project, course, job or self-directed activity where you learned something and applied it (2–3 paragraphs); previous sales experience is not required
 - Link to or attachment of your standalone HTML
 - Link to your 10–15 minute video
+- Link to one programming project (personal or academic is accepted), your contribution and how you checked it works; reuse an existing project, do not build another one for this exercise
 - Approximate time spent and any incomplete detail
 
 Verify that the HTML opens correctly and the video link works for someone outside your account.
@@ -256,7 +257,7 @@ Key responsibilities include:
 - configuring and reviewing AI-assisted prospecting workflows;
 - keeping contacts, replies, next actions and handoffs organized.
 
-This is an internship / early-career commercial role. Learning through coursework, personal projects, student organizations and other practical experience counts.
+This is an internship / early-career commercial role. Learning through coursework, personal projects, student organizations and other practical experience counts. The role requires an explainable programming project and professional spoken and written English. Internship candidates must be enrolled in a related degree; junior candidates may demonstrate their technical foundation through related education or consistent projects.
 
 Interested? Visit [Voidr careers](https://www.voidr.co/pt-br/empresa/carreiras).
 
