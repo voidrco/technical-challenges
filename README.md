@@ -17,6 +17,7 @@ This repository contains the technical challenges we use in our hiring process a
 | Account Executive | [AE Technical Challenge](./account-executive/) | Deal strategy and executive pitch simulation |
 | AI Content Engineer | [AI Content Engineer Challenge](./ai-content-engineer/) | Technical content creation with AI tools |
 | AI Deployment | [AI Deployment Challenge](./ai-deployment/) | Preliminary customer diagnosis and value-demonstration plan |
+| AI Sales Engineer | [AI Sales Engineer Challenge](./ai-sales-engineer/) | Account research, personalized outreach, cold call and AI SDR operations for early-career candidates |
 | AI Test Engineer | [AI Test Engineer Technical Challenge](./ai-test-engineer/) | API and Web UI automation with Playwright |
 | BDR | [BDR Technical Challenge](./bdr/) | Prospect research and discovery call simulation |
 | CRO | [CRO Technical Challenge](./cro/) | Revenue strategy and board presentation |
@@ -42,6 +43,7 @@ This repository contains the technical challenges we use in our hiring process a
 ├── account-executive/       # Account Executive Technical Challenge
 ├── ai-content-engineer/     # AI Content Engineer Technical Challenge
 ├── ai-deployment/           # AI Deployment Technical Challenge
+├── ai-sales-engineer/       # AI Sales Engineer Technical Challenge
 ├── ai-test-engineer/        # AI Test Engineer Technical Challenge
 ├── bdr/                     # BDR Technical Challenge
 ├── cro/                     # Chief Revenue Officer Technical Challenge
