@@ -21,6 +21,7 @@ This repository contains the technical challenges we use in our hiring process a
 | AI Test Engineer | [AI Test Engineer Technical Challenge](./ai-test-engineer/) | API and Web UI automation with Playwright |
 | BDR | [BDR Technical Challenge](./bdr/) | Prospect research and discovery call simulation |
 | CRO | [CRO Technical Challenge](./cro/) | Revenue strategy and board presentation |
+| Go-to-Market Engineer | [GTM Engineer Challenge](./gtm-engineer/) | Local commercial automation, data quality, integration recovery and measurement for early-career candidates |
 | RevOps Engineer | [RevOps Engineer Challenge](./revops-engineer/) | Revenue operations diagnosis and technical implementation |
 | RevOps Manager | [RevOps Manager Challenge](./revops-manager/) | Revenue operations strategy, forecasting model, and automation architecture |
 | Sales — Technical Account Executive | [TAE Technical Challenge](./sales-tae/) | Technical discovery, PoC design, and demo close for enterprise engineering buyers |
@@ -47,6 +48,7 @@ This repository contains the technical challenges we use in our hiring process a
 ├── ai-test-engineer/        # AI Test Engineer Technical Challenge
 ├── bdr/                     # BDR Technical Challenge
 ├── cro/                     # Chief Revenue Officer Technical Challenge
+├── gtm-engineer/            # Go-to-Market Engineer Technical Challenge
 ├── revops-engineer/         # RevOps Engineer Technical Challenge
 ├── revops-manager/          # RevOps Manager Technical Challenge
 ├── sales-tae/               # Sales — Technical Account Executive Challenge

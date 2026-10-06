@@ -1,0 +1,111 @@
+{
+  "as_of": "2026-10-06",
+  "account": {
+    "id": "northstar",
+    "name": "Northstar Retail Systems",
+    "domain": "northstar.example",
+    "stage": "Research",
+    "owner": "Account Owner"
+  },
+  "sources": {
+    "S1": "Fictional newsroom: partner integration program expanding. No budget or performance measure disclosed.",
+    "S2": "Fictional engineering post: internal test framework exists. Coverage and costs unknown."
+  },
+  "suppressed_emails": [
+    "jordan@northstar.example"
+  ],
+  "records": [
+    {
+      "id": "R1",
+      "name": "Morgan Lee",
+      "email": "morgan@northstar.example",
+      "verified": true,
+      "role": "VP Engineering",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "R2",
+      "name": "Morgan Lee",
+      "email": " MORGAN@northstar.example ",
+      "verified": true,
+      "role": "VP Engineering",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "R3",
+      "name": "Alex Chen",
+      "email": "alex@northstar.example",
+      "verified": true,
+      "role": "Principal Engineer",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "R4",
+      "name": "Jordan Patel",
+      "email": "jordan@northstar.example",
+      "verified": true,
+      "role": "Operations Lead",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "R5",
+      "name": "Casey Park",
+      "email": null,
+      "verified": false,
+      "role": "Integration Lead",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "R6",
+      "name": "Blair Reed",
+      "email": "blair@northstar.example",
+      "verified": true,
+      "role": "Engineering Manager",
+      "source_ids": [
+        "S99"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event_id": "E1",
+      "type": "reply",
+      "email": "alex@northstar.example",
+      "text": "Please send more context. This is not a buying project."
+    },
+    {
+      "event_id": "E1",
+      "type": "reply",
+      "email": "alex@northstar.example",
+      "text": "Please send more context. This is not a buying project."
+    },
+    {
+      "event_id": "E2",
+      "type": "opt_out",
+      "email": "morgan@northstar.example",
+      "text": "Remove me from outreach."
+    },
+    {
+      "event_id": "E2",
+      "type": "opt_out",
+      "email": "morgan@northstar.example",
+      "text": "Remove me from outreach."
+    }
+  ],
+  "failure": {
+    "event_id": "E1",
+    "operation": "crm.update_contact",
+    "fail_attempts": 1,
+    "status": 503
+  }
+}
