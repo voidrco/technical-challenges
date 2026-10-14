@@ -1,0 +1,6 @@
+id,ativo,situacao,evidencia,impacto_possivel
+S01,token_integracao,valor_redigido_encontrado_em_log,historico_ficticio,acesso_indevido
+S02,exportacao_csv,sem_registro_de_destinatario,amostra_ficticia,exposicao_de_dados
+S03,conta_suporte,admin_sem_prazo,matriz_ficticia,privilegio_excessivo
+S04,backup,teste_restauracao_nao_encontrado,catalogo_ficticio,continuidade
+S05,contrato,cliente_pede_certificacao_nao_informada,pedido_ficticio,declaracao_incorreta

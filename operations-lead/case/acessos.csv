@@ -1,0 +1,3 @@
+pessoa,recurso,aprovador,status
+P01,crm,Head_RevOps,pendente
+P01,producao,CTO,nao_solicitado

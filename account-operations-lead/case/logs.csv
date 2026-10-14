@@ -1,0 +1,5 @@
+evento,ticket,resultado
+1,T1,ok
+2,T2,timeout
+3,T2,retry
+4,T2,duplicado

@@ -1,0 +1,4 @@
+id,demanda,impacto,estimativa_horas,dependencia,aceite
+L01,diagnosticar falha intermitente,pedido nao concluido,8,logs_leitura,causa_com_evidencias
+L02,integracao de webhook,duplicacao de registros,16,escrita_pendente,sem_duplicacao_no_replay
+L03,painel de status,baixa_visibilidade,8,dados_parciais,fonte_e_atualizacao_identificadas

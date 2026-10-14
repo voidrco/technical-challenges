@@ -1,0 +1,6 @@
+id,etapa,valor_mensal,probabilidade,proxima_acao,contrato,evidencia
+R01,reuniao,12000,0.9,diagnostico,nao,interesse_sem_criterio
+R02,proposta,18000,0.7,revisar_escopo,nao,proposta_sem_capacidade
+R03,contrato,22000,1,ativar,sim,assinatura_confirmada
+R04,proposta,18000,0.7,revisar_escopo,nao,duplicata_R02
+R05,discovery,9000,0.5,,nao,problema_sem_baseline

@@ -1,0 +1,7 @@
+event_id,tenant,ticket,version,status,authorized
+E01,A,T1,1,open,true
+E01,A,T1,1,open,true
+E02,A,T1,3,closed,true
+E03,A,T1,2,in_progress,true
+E04,B,T1,1,open,true
+E05,A,T2,1,open,false

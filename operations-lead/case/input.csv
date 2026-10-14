@@ -1,0 +1,6 @@
+id,frente,pedido,prazo,responsavel,situacao,evidencia
+O01,financeiro,conferir fatura de setembro,hoje 15h,Lead,divergente,consumo.csv
+O02,pessoas,onboarding de nova pessoa,amanha 09h,estagiario_1,sem aprovacao de acesso,acessos.csv
+O03,fornecedor,renovar contrato,hoje 17h,Lead,sem comprovante de entrega,contrato_ficticio
+O04,treinamento,revisar onboarding,sexta,estagiario_2,versao antiga,catalogo.csv
+O05,backoffice,solicitar reembolso,hoje 14h,estagiario_1,sem comprovante,pendencia

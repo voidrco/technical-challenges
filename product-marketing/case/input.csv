@@ -1,0 +1,6 @@
+id,tipo,conteudo,estado
+M01,entrevista,cliente quer reduzir tempo para investigar falhas,confirmado_ficticio
+M02,metrica,tempo de triagem caiu de 60 para 35 minutos em 8 casos,piloto_amostra_pequena
+M03,pedido_comercial,prometer zero bugs e ROI de 300 por cento,sem_evidencia
+M04,produto,conecta tickets codigo e contexto de producao,validar_engenharia
+M05,objeção,time teme dependencia e acessos excessivos,confirmado_ficticio

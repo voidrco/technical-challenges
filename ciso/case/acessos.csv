@@ -1,0 +1,4 @@
+pessoa,recurso,permissao,prazo,aprovacao
+U01,integracao,admin,,desconhecida
+U02,exportacao,leitura,2026-10-20,confirmada
+U03,logs,admin,,nao_confirmada

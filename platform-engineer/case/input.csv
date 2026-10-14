@@ -1,0 +1,6 @@
+id,tenant,origem,ticket,payload,autorizado
+P01,A,sistema_1,T1,aberto,sim
+P01,A,sistema_1,T1,aberto,sim
+P02,B,sistema_2,T2,aberto,sim
+P03,A,sistema_1,T3,,sim
+P04,B,sistema_2,T4,fechado,nao

@@ -1,0 +1,16 @@
+[
+  {
+    "source": "sistema_1",
+    "tenant": "A",
+    "event_id": "P01",
+    "ticket_id": "T1",
+    "status": "aberto"
+  },
+  {
+    "source": "sistema_2",
+    "account": "B",
+    "id": "P02",
+    "issue": "T2",
+    "state": "open"
+  }
+]
