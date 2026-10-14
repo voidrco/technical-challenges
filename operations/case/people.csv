@@ -1,0 +1,5 @@
+person_id,name,relationship,day_minutes,supervisor,policy_id
+P01,Alex Demo,CLT,480,Lead A,DEMO-CLT-1
+P02,Bea Demo,PJ,480,Contract Owner,
+P03,Cris Demo,Intern,360,Supervisor C,
+P04,Dani Demo,CLT,480,Lead A,DEMO-CLT-1

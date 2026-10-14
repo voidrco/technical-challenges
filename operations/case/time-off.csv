@@ -1,0 +1,6 @@
+off_id,person_id,date,minutes,status,approver,coverage_confirmed
+F01,P01,2026-09-10,480,pending,Lead A,false
+F02,P04,2026-09-10,60,approved,Lead A,true
+F02,P04,2026-09-10,60,approved,Lead A,true
+F03,P04,2026-09-11,480,approved,Lead A,true
+F04,P02,2026-09-10,480,pending,Contract Owner,false

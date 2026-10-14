@@ -1,0 +1,11 @@
+request_id,person_id,start,end,break_minutes,reason,review_status,approver,policy_id
+R01,P01,2026-09-01T18:00:00-03:00,2026-09-01T20:00:00-03:00,0,Release support,approved,Lead A,DEMO-CLT-1
+R01,P01,2026-09-01T18:00:00-03:00,2026-09-01T20:00:00-03:00,0,Release support,approved,Lead A,DEMO-CLT-1
+R02,P01,2026-09-02T18:00:00-03:00,2026-09-02T19:00:00-03:00,0,,approved,Lead A,DEMO-CLT-1
+R03,P02,2026-09-02T18:00:00-03:00,2026-09-02T20:00:00-03:00,0,Delivery support,approved,Contract Owner,
+R04,P03,2026-09-03T15:00:00-03:00,2026-09-03T16:00:00-03:00,0,Onboarding issue,pending,Supervisor C,
+R05,P04,2026-09-04T23:00:00-03:00,2026-09-05T01:00:00-03:00,0,Incident follow-up,approved,Lead A,DEMO-CLT-1
+R06,P01,2026-09-05T18:00:00-03:00,2026-09-05T20:00:00-03:00,0,Rework,pending,,DEMO-CLT-1
+R07,P01,2026-09-06T18:00:00-03:00,2026-09-06T19:00:00-03:00,90,Support,approved,Lead A,DEMO-CLT-1
+R08,P01,2026-09-07T18:00:00-03:00,2026-09-07T19:00:00-03:00,0,Optional learning,rejected,Lead A,DEMO-CLT-1
+R09,P04,2026-09-07T10:00:00-03:00,2026-09-07T12:00:00-03:00,30,Handover support,approved,Lead A,DEMO-CLT-1

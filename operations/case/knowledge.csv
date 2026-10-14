@@ -1,0 +1,11 @@
+item_id,title,kind,owner,audience,version,status,last_review,location,access
+K01,Onboarding,training,,New joiners,1,draft,,drive://onboarding-v1,internal
+K02,Onboarding,training,Operations Lead,New joiners,2,current,2026-08-01,drive://onboarding-v2,internal
+K03,Access request,process,CTO,All,1,outdated,2025-02-01,drive://access-legacy,restricted
+K04,Access request,process,CTO,All,2,current,2026-09-01,drive://access-current,internal
+K05,AI foundations,training,Platform Lead,All,1,current,2026-08-20,video://ai-foundations,internal
+K06,LLM prompts,training,,All,1,unreviewed,,notes://prompts,internal
+K07,Invoices and reconciliation,process,Operations Lead,Operations,1,current,2026-08-30,drive://invoices,restricted
+K08,Incident response,process,COO,Account squads,2,current,2026-09-01,drive://incident-response,restricted
+K09,Joiner checklist,process,Operations Lead,Operations,1,current,2026-08-01,sheet://joiners,internal
+K10,Salary and personal documents,process,Operations Lead,Operations,1,current,2026-09-01,drive://personal-records,restricted
