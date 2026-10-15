@@ -1,220 +1,114 @@
-<p align="center">
-  <img src="https://unicorn-images.b-cdn.net/277503c3-f842-45d5-88de-69c30719b278?optimizer=gif" width="200" alt="Voidr Logo" />
-</p>
+# AI Software Engineer — Exploratory Testing Agent
 
-<h3 align="center">From Hourly IT Services to AI-Native Operations</h3>
+Take-home challenge · TypeScript + Playwright · 5 calendar days · 8–12 hours, hard cap of 12 hours
 
-# Exploratory Testing Agent
+## Why this challenge
 
-Take-Home Challenge
+At Voidr, engineers build reusable software and AI capabilities for critical applications. This exercise evaluates architecture, implementation, integration of AI, testing, observability, reliability and technical communication. Build a small working component and show how you verified it.
 
-Time: 5 days | Stack: TypeScript
+## The mission
 
----
+Build an agent that explores a web application, proposes useful interactions and produces a report of potential issues with reproducible evidence. A CLI is sufficient. Use TypeScript and Playwright; choose your own agent framework or write the orchestration yourself.
 
-## Overview
+Primary target: https://with-bugs.practicesoftwaretesting.com
 
-Build an AI agent that autonomously explores a web application, discovers potential issues, and generates a structured report of findings. The agent should leverage an LLM to make intelligent decisions about what to test next, while providing a human-in-the-loop mechanism for guidance.
+We also supply a [local fixture](./fixtures/README.md). Use it for repeatable automated tests and whenever the external application is unavailable. It is intentionally small and is not a replacement for a full application. Do not infer coverage of the external site from fixture results.
 
----
+Prioritize one meaningful journey, such as browsing products and updating a cart. You are not expected to cover authentication, checkout and every area of the site.
 
-## Target Application
+## Required behavior
 
-Your agent will explore the following e-commerce application:
+### 1. A bounded exploration loop
 
-**https://with-bugs.practicesoftwaretesting.com**
+The agent observes the page, asks an LLM to propose the next action, validates that proposal, executes an allowed action and records the result. Support navigation, element interaction and screenshots. Keep observations, proposed actions, execution results and findings separate.
 
-This is a fully functional e-commerce site with intentional bugs. Your agent should discover issues across different areas: product browsing, cart operations, checkout flow, user authentication, and more.
+- Constrain the action vocabulary and validate model output at runtime. TypeScript types alone do not validate external data.
+- Restrict navigation to the configured origin. Page text and model output must not change this boundary or authorize shell commands, filesystem access or external requests.
+- Set maximum actions, wall-clock duration and model calls. Bound retries and repeated actions; stop cleanly on budget exhaustion.
+- Record a short operational rationale for an action: hypothesis, expected observation and evidence. We do not need a transcript of internal model reasoning.
+- Model errors, browser timeouts and unavailable pages must produce an understandable result, rather than an infinite loop or an invented success.
 
----
+### 2. Human guidance
 
-## Requirements
+At a documented checkpoint, summarize progress and proposed next steps. The user can continue, stop or provide guidance. Explain what triggers the checkpoint. A stop request must prevent subsequent browser/model actions; save partial results.
 
-### 1. Autonomous Exploration
+### 3. Implement `find_broken_images` yourself
 
-The agent must navigate the application autonomously, making decisions about what to explore based on what it observes. It should be capable of:
+The agent must call this tool through the same tool interface used by its exploration loop. You may use Playwright or an agent library for other interactions, but do not use a prebuilt broken-image detector.
 
-- Navigating between pages
-- Interacting with UI elements (clicks, form fills, selections)
-- Capturing screenshots
-- Extracting page content for analysis
+Return a structured result per relevant image, including source, alt text, a usable locator or page position, evidence and status/reason. Distinguish:
 
-### 2. Intelligent Decision Making
+- A confirmed failed load or invalid/missing image source.
+- An image still loading, lazy-loaded or outside the inspected viewport.
+- An intentionally hidden image, which is not automatically a broken image.
+- An inconclusive result.
 
-Use an LLM to analyze the current page state and decide the next action. The agent should:
+Check completion/loading state before relying on natural dimensions. If you report an HTTP status, show how it was actually observed; do not infer a 404 from zero dimensions. Do not issue arbitrary additional requests to off-origin URLs merely because they appear in image attributes.
 
-- Form hypotheses about what might be worth testing
-- Prioritize high-value interactions
-- Explain its reasoning for each decision
+### 4. Report findings and limits
 
-### 3. Human-in-the-Loop Interaction
+Produce machine-readable JSON plus a readable summary. For each finding, include:
 
-Implement a CLI-based interaction where the agent periodically asks the user whether to continue exploring or stop. This interaction should:
+- Stable ID, category, severity and confidence, with a short justification.
+- Page/route, reproduction steps and expected versus observed behavior.
+- Screenshot or other observed evidence, linked to the relevant trace/action.
+- Whether it is confirmed, a hypothesis requiring review or an inconclusive observation.
 
-- Present a summary of what has been explored so far
-- Show the agent's proposed next steps
-- Allow the user to: continue, stop, or provide guidance
-- Define your own trigger for when to ask (e.g., after N actions, when confidence is low, at natural breakpoints)
+Deduplicate repeated observations. State what was explored, what was not, why the run stopped and how to resume or investigate. Model-generated allegations without observed evidence must not appear as confirmed bugs. A clean or inconclusive run is valid if honestly reported.
 
-### 4. Required Custom Tool: Broken Image Detector
+### 5. Make it verifiable and maintainable
 
-You must implement a custom tool **`find_broken_images`** that the agent can invoke to scan the current page for broken images. This tool should:
+Provide a documented command or library boundary for an engineer to run the agent with a target, budgets and output directory. An HTTP service or cloud deployment is not required. Include structured logs with a run identifier, action result and stop reason. Do not log credentials or full sensitive payloads.
 
-- Detect images that fail to load (HTTP errors, 404s)
-- Detect images with invalid or empty src attributes
-- Detect images that load but have zero dimensions (naturalWidth/naturalHeight = 0)
-- Return a structured report including: image src, alt text, location on page, and failure reason
+Separate the model adapter, browser execution, image tool and reporting sufficiently to test them. Include a real-provider adapter configured through environment variables and an offline scripted/fake adapter for deterministic tests. Clearly label simulated versus real model runs. If you have access to a provider, include one short real-model run; if you do not, document the limitation. Paid API access and cloud accounts are not prerequisites, and offline evidence must never be represented as a real-model run.
 
-> **Note:** You may use libraries like browser-use or similar for other browser interactions, but this specific tool must be implemented by you to demonstrate understanding of tool creation patterns.
+Include automated tests for these behaviors, using the supplied fixture or an equivalent local fixture:
 
-### 5. Findings Report
+1. A genuinely failed image is detected; a working, hidden or not-yet-loaded image is not mislabeled as a confirmed failure.
+2. A malformed model response or forbidden/off-origin action is rejected before browser execution.
+3. A repeated action, timeout or transient failure cannot cause unbounded work; the agent saves a partial report with an accurate stop reason.
+4. Two observations of the same issue do not create duplicate confirmed findings.
+5. User stop prevents the next browser/model action.
 
-The agent must generate a structured report of all findings, including:
-
-- List of potential bugs discovered with severity assessment
-- Broken images found (from your custom tool)
-- UX issues and edge cases identified
-- Coverage summary: what areas were explored
-- Screenshots or evidence supporting each finding
-
----
-
-## Technical Constraints
-
-- **Language:** TypeScript (required)
-- **Browser Automation:** Playwright (required)
-- **LLM:** Any provider (OpenAI, Anthropic, etc.) - document your choice and reasoning
-- **Agent Framework:** Your choice (LangGraph, browser-use, Vercel AI SDK, or custom implementation)
-- The solution must be runnable locally with clear setup instructions
-
----
-
-## Evaluation Criteria
-
-| Dimension | What We Look For |
-|-----------|------------------|
-| **Architecture** | Clear separation of concerns, extensibility, appropriate abstractions. How would this scale to test multiple applications? |
-| **Agent Design** | Quality of LLM prompts, decision-making logic, balance between exploration and exploitation, error recovery strategies |
-| **Tool Implementation** | Quality of the `find_broken_images` tool: edge case handling, performance, structured output, integration with agent flow |
-| **Code Quality** | TypeScript best practices, type safety, error handling, testing approach, readability |
-| **Communication** | README quality, documented trade-offs, clear explanations of why you made certain choices |
-| **Results** | Did the agent actually find bugs? Quality and actionability of the generated report |
-
-### What We're NOT Looking For
-
-- 100% test coverage of the target site: Quality over quantity
-- Over-engineered solutions: Solve the problem at hand, not hypothetical future problems
-- Perfect code: We value pragmatic decisions and documented trade-offs
-- Fancy UI: CLI is perfectly fine
-
----
+You choose the testing approach. Tests must assert externally meaningful behavior, rather than just mirror the implementation. Explain one failure you investigated and how you verified the correction; do not invent an incident.
 
 ## Deliverables
 
-1. **Source code** in a private GitHub repository
+1. Source code in a private repository, with a lockfile and `.env.example` containing placeholders only. Give **operationsvoidr** read access.
+2. A concise README covering setup, the commands for execution/tests, architecture, interface and report format, trade-offs, known limits and what you would improve for production. State time spent and where you stopped.
+3. A sample report and trace/evidence, clearly labeling target, adapter mode and configuration. Include automated test output. Explain any target outage or unexecuted check.
+4. A simple architecture diagram, included in the README.
+5. A video of up to 7 minutes **in English** demonstrating the same solution, a test and one important trade-off. Written materials may be in Portuguese or English; we assess clarity and understanding, not accent.
+6. AI usage notes, up to half a page: tools used, one useful interaction, something you verified or corrected, and your own contribution. AI-assisted development is required; you must understand all submitted code.
 
-2. **README** with:
-   - Setup instructions
-   - Architecture overview
-   - Design decisions and trade-offs
-   - How to run the agent
-   - AI usage documentation (see below)
+Do not build a UI, account system, complete testing platform or production infrastructure. Persistence, a thin API, cloud deployment, MCP and automatic test generation are optional design discussion topics; they do not compensate for weak core behavior. Spend the time on a reliable small solution.
 
-3. **Sample output** showing the agent running against the target application (terminal recording, screenshots, or generated report)
+## Time, scope and boundaries
 
-4. **Architecture diagram** (can be simple, hand-drawn is fine) explaining the agent's flow
+- Five calendar days from receipt. Tell us if other commitments require an extension.
+- Budget 8–12 focused hours and stop at 12. Record unfinished work and priorities; overtime and feature count do not earn extra credit.
+- Use only the supplied fixture and the designated intentionally buggy application. Do not scan unrelated services, use real personal data or enter real payment details. Do not load-test or attempt exploitation.
+- No paid services are required. Secrets stay outside the repository and recordings.
+- This is a fictional hiring exercise; candidate work will not be used in production.
 
-5. **Video walkthrough** (maximum 5 minutes)
-   - Brief explanation of your solution and approach
-   - Demo of the agent in action
-   - Record using Loom, OBS, or any screen recorder
+## Evaluation
 
----
+| Dimension | Weight | What we inspect |
+|---|---:|---|
+| Working software and interfaces | 25% | A reproducible run, clear boundaries and usable report/tool contracts. |
+| AI integration and control | 20% | Runtime validation, bounded decisions, separation of data and instructions, transparent simulation. |
+| Testing and reliability | 25% | Meaningful regression tests, loading/timeout handling, stop behavior and partial reports. |
+| Evidence and observability | 20% | Reproducible findings, traceability, deduplication and honest limits. |
+| Communication and engineering judgment | 10% | Clear decisions, English explanation, maintainability and critical use of AI. |
 
-## AI-Assisted Development (Required)
+A person reviews the evidence; a total score alone does not determine advancement. We evaluate the submitted scope and job requirements, not spending, visual polish or number of features. You may ask questions and document reasonable assumptions.
 
-This challenge must be completed using AI assistance. We want to evaluate your ability to leverage AI tools effectively in your workflow.
+## Submission and next step
 
-### AI Usage Documentation
+Email **hiring@jobs.voidr.co**, copying **nathalia@voidr.co**.
 
-In your README, include a section explaining:
+Subject: **[Technical Challenge Voidr] - Your Full Name - AI Software Engineer**
 
-- Which AI tools you used (Cursor, Claude, GitHub Copilot, etc.)
-- How you used AI to assist in development
-- Specific examples of prompts or interactions that were particularly effective
-- How you validated and refined AI-generated code
-- What you learned about using AI for agent development
+Include repository and video links plus the report/evidence. Verify read permissions. Do not include credentials.
 
-We're not looking for candidates who avoid AI — we want professionals who know how to use it strategically and understand what it generates.
-
----
-
-## Stretch Goals
-
-These are optional but will be highly valued:
-
-- **Cloud Deployment:** Deploy the solution to a cloud provider (AWS, GCP, Vercel, Railway, etc.) with a simple way to trigger execution
-- **Persistence:** Save exploration state and allow resuming from where it left off
-- **Test Generation:** Automatically generate Playwright test scripts based on discovered issues
-- **MCP Server:** Expose the agent as an MCP server so external LLMs can invoke it as a tool
-
----
-
-## Timeline
-
-- **Duration:** 5 days from when you receive this challenge
-- **Effort:** 8-16 hours of focused work
-- If you need more time due to other commitments, just let us know
-
----
-
-## How to Submit
-
-When you finish the challenge, follow these steps:
-
-### Step 1: Grant Repository Access
-
-Add **operationsvoidr** as a collaborator to your private GitHub repository.
-
-### Step 2: Send Your Submission Email
-
-Send an email to **hiring@jobs.voidr.co** with:
-
-**Subject:** `[ Technical Challenge Voidr ] - Your Full Name`
-
-**Body:**
-- Brief text introduction of your solution (2-3 paragraphs)
-- Link to your GitHub repository
-- Link to your 5-minute video walkthrough
-
----
-
-## What Happens Next
-
-### If you pass this stage
-
-You'll receive an email with a link to schedule a 30-minute technical session with our CTO, Victor Buchalla.
-
-During this session, you'll:
-- Walk through your solution and key decisions
-- Explain the rationale behind technical choices
-- Discuss what you would improve given more time
-- Demonstrate deep understanding of all code, including AI-generated parts
-
-Be prepared to extend or modify the solution live (pair programming style) and discuss how you'd adapt this for production use at scale.
-
-### If you don't pass this stage
-
-You'll receive structured, honest feedback explaining why it wasn't a match this time.
-
----
-
-## Questions?
-
-If anything is unclear or you encounter issues, reach out via email: **hiring@jobs.voidr.co**
-
-Asking good questions is a positive signal, not a negative one.
-
----
-
-Interested in joining the team? Check open positions at [voidr.co](https://voidr.co)
+If you advance, the technical team will discuss the existing work and ask for a small live change or debugging task. No second take-home is required. We will agree on the session time separately.
