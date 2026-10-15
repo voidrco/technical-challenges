@@ -1,0 +1,71 @@
+{
+  "description": "Synthetic failure scenarios for the reliable AI exploration worker. Public acceptance invariants, not a solution or mandatory API. Inject faults locally; never contact off-origin destinations.",
+  "scenarios": [
+    {
+      "id": "S01",
+      "name": "Two tenants, same run identifier",
+      "setup": "Create tenant-alpha/run-01 and tenant-beta/run-01 with separate browser contexts and interleave their work.",
+      "fault": "Both generate a finding with the same local identifier.",
+      "expectedInvariants": [
+        "Reports and artifacts remain isolated by tenant and run.",
+        "One run cannot consume or overwrite the other run budget or evidence.",
+        "Tenant/run identifiers cannot escape the configured output root."
+      ]
+    },
+    {
+      "id": "S02",
+      "name": "Crash and restart",
+      "setup": "Consume at least one model call and commit at least one finding.",
+      "fault": "Terminate execution and restart the same logical run.",
+      "expectedInvariants": [
+        "Previously consumed action/model budgets remain consumed.",
+        "Committed findings are preserved and not duplicated.",
+        "The resumed report states that recovery occurred and any limitation."
+      ]
+    },
+    {
+      "id": "S03",
+      "name": "Effect occurred, acknowledgment lost",
+      "setup": "The executor may perform a cart update.",
+      "fault": "Inject interruption after dispatch and before persistence of the outcome.",
+      "expectedInvariants": [
+        "The uncertain outcome is recorded honestly.",
+        "The interaction is not blindly replayed as if it had certainly failed.",
+        "Recovery re-observes or pauses for human guidance, with a documented reason."
+      ]
+    },
+    {
+      "id": "S04",
+      "name": "Model output is unusable or unsafe",
+      "setup": "Use scripted responses for deterministic runs.",
+      "fault": "Return malformed output, then an off-origin action proposal in separate test cases.",
+      "expectedInvariants": [
+        "Invalid/forbidden proposals do not reach browser execution.",
+        "Retries are bounded and accounted for.",
+        "The report distinguishes validation/policy failure from a target application bug."
+      ]
+    },
+    {
+      "id": "S05",
+      "name": "Cancellation with work pending",
+      "setup": "Hold one browser or model operation in flight.",
+      "fault": "Request stop before that operation completes.",
+      "expectedInvariants": [
+        "No subsequent action is dispatched after the stop is accepted.",
+        "Partial results and a stop reason are saved.",
+        "Any late result is handled according to an explicit policy without resuming exploration."
+      ]
+    },
+    {
+      "id": "S06",
+      "name": "Confident false finding",
+      "setup": "The local target exposes a working image and known observed state.",
+      "fault": "The scripted model claims the working image is broken without matching browser evidence.",
+      "expectedInvariants": [
+        "The claim is not marked as a confirmed defect.",
+        "The report preserves uncertainty or explains rejection.",
+        "The evaluation records expected versus actual behavior."
+      ]
+    }
+  ]
+}
