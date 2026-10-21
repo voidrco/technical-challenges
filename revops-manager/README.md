@@ -6,6 +6,15 @@
 
 # RevOps Manager Technical Challenge
 
+## Mandatory video and camera requirement
+
+The challenge video is a **required deliverable**. Keep your **camera on, with you visible and your voice clearly audible throughout the presentation**. When sharing your screen, keep your camera visible in a picture-in-picture window (Loom, OBS or an equivalent recorder is fine).
+
+Demonstrate your work, explain your decisions and identify your own contribution. Record a walkthrough of up to 5 minutes explaining your forecast and main prioritization decisions. Follow the other language and content requirements in this challenge. Include the video link with the other deliverables and verify that the Voidr hiring team can open it without requesting additional access.
+
+**Submission checklist:** video included; camera on and presenter visible; audio understandable; link accessible to the hiring team. A submission without the required camera-on video is incomplete and requires supplementation before the challenge review is complete.
+
+
 Take-Home Challenge
 
 Time: 3 days | Role: RevOps Manager Senior
