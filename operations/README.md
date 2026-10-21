@@ -1,5 +1,14 @@
 # Operations Technical Challenge
 
+## Mandatory video and camera requirement
+
+The challenge video is a **required deliverable**. Keep your **camera on, with you visible and your voice clearly audible throughout the presentation**. When sharing your screen, keep your camera visible in a picture-in-picture window (Loom, OBS or an equivalent recorder is fine).
+
+Demonstrate your work, explain your decisions and identify your own contribution. Follow the duration, language and content requirements in this challenge. Include the video link with the other deliverables and verify that the Voidr hiring team can open it without requesting additional access.
+
+**Submission checklist:** video included; camera on and presenter visible; audio understandable; link accessible to the hiring team. A submission without the required camera-on video is incomplete and requires supplementation before the challenge review is complete.
+
+
 Take Home Challenge
 
 Time: 5 days | Role: Operations Intern / Junior
